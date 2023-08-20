@@ -16,7 +16,7 @@ provider "aws" {
 
 resource "aws_instance" "example_instance" {
   count         = var.instance_count
-  ami           = "ami-0c55b159cbfafe1f0"  # Replace with your desired AMI
+  ami           = "ami-0688ba7eeeeefe3cd"  # Replace with your desired AMI
   instance_type = "t2.micro"
   
 
