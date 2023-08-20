@@ -1,4 +1,4 @@
-variable "myfirstvar" {
-    type = string
-    default = "Hello! Welcome Terraform"
-}
+#variable "myfirstvar" {
+ #   type = string
+  #  default = "Hello! Welcome Terraform"
+#}
