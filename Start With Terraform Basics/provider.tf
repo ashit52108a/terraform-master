@@ -1,5 +1,6 @@
-#provider "aws" {
- # access_key = "AKIASMSIZOF4QD2NTPB6"
-  #secret_key = "SECRET_KEY_HERE"
-  #region     = "us-east-2"
-#}
+provider "aws" {
+    version = "5.13.0"
+    access_key = "AKIAYDCWZIA6WC5V7WQB"
+    secret_key = "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"
+    region     = "us-west-2"
+}
