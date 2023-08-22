@@ -1,3 +1,5 @@
 provider "aws" {
-  region = "us-west-2"  # Change this to your desired region
+  region        = "${var.AWS_REGION}"
+  access_key    = "${var.AWS_ACCESS_KEY}"
+  secret_key    = "${var.AWS_SECRET_KEY}"
 }
