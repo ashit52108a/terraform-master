@@ -6,3 +6,10 @@ variable "region" {
 variable "access_key" {}
 
 variable "secret_key" {}
+
+variable "ami_image" {
+    type = map
+    us-west-2 = "ami-0688ba7eeeeefe3cd"
+
+  
+}
