@@ -33,3 +33,7 @@ resource "aws_instance" "MyFirstInstnace" {
     private_key = file(var.PATH_TO_PRIVATE_KEY)
   }
 }
+
+resource "aws_key_pair" "name" {
+  
+}
